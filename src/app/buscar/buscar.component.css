@@ -819,7 +819,7 @@ html {
     -ms-flex-align: center;
         align-items: center;
     font-family: 'Poppins', sans-serif;
-    background: url("../assets/fundo.jpg");
+    background: url("../../assets/fundo.jpg");
     background-size: cover;
     background-position: center center;
     padding: 15px;

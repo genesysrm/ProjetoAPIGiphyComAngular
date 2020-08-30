@@ -1,3 +1,31 @@
+.gifs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width:1000px;
+    margin: 0 auto;
+}
+
+.gif img{
+    max-width: 250px;
+
+}
+
+.boton{
+  width:200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: black;
+  color: whitesmoke;
+ 
+  font-size: 16px;
+  
+}
+
+h1{
+  color: #DDDDDD;
+  
+}
+
 html {
     line-height: 1.15;
     /* 1 */
@@ -33,7 +61,7 @@ html {
    * `article` contexts in Chrome, Firefox, and Safari.
    */
   h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0.67em 0;
   }
   
@@ -446,6 +474,7 @@ html {
     display: block;
     -webkit-padding-start: 0;
     -webkit-padding-end: 0;
+    
   }
   
   /*===============================
@@ -819,7 +848,7 @@ html {
     -ms-flex-align: center;
         align-items: center;
     font-family: 'Poppins', sans-serif;
-    background: url("../assets/fundo.jpg");
+    background: url("../../assets/fundo.jpg");
     background-size: cover;
     background-position: center center;
     padding: 15px;
